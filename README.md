@@ -1,7 +1,7 @@
 # tp5-ding-exception
 
 ## composer 安装命令
-composer install gover/tp5-ding-exception
+composer require gover/tp5-ding-exception
 
 ## 部署流程
 #### 第一步：引入DingTalk.php和ExceptionFormat.php两个文件
