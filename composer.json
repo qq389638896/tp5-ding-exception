@@ -1,0 +1,13 @@
+{
+    "name": "gover/tp5-ding-exception",
+    "description": "dingding exception",
+    "type": "library",
+    "authors": [
+        {
+            "name": "gover",
+            "email": "389638896@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
