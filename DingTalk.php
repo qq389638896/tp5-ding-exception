@@ -78,8 +78,6 @@ class DingTalk
         $client = new \GuzzleHttp\Client(['timeout' => 2.0]);
         $rs     = $client->post($apiUrl, ['json' => $params]);
 
-        if ($rs->getStatusCode() !== 200) writeLog(['msg' => '钉钉发送失败', 'rs' => $rs], 'system_log');
-
         return $rs;
     }
 
