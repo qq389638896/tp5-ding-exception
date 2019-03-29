@@ -5,8 +5,8 @@ composer require gover/tp5-ding-exception
 
 ## 部署流程
 #### 第一步：引入DingTalk.php和ExceptionFormat.php两个文件
-#### 第二步：composer安装guzzlehttp/guzzle依赖
-#### 第三步：参考demo代码，发送钉钉异常警报
+#### 第二步：放置好think_exception.tpl
+#### 第三步：参考demo代码，发送钉钉异常警报（tpl路径可以在ExceptionFormat里showTpl方法中修改）
 
 ## 配置 .env
 [dingtalk]
